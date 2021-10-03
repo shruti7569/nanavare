@@ -89,7 +89,16 @@
   li{
     a{
       color: $light;
-      margin-right:20px;
+      margin-right:20px;      
+      span{
+        color: $light;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      i{
+        color: $light;
+        margin-right: 10px;
+      }
     }
   }
 }
@@ -102,7 +111,7 @@
         letter-spacing: 1px;
       }
       i{
-        color: $light;
+        color: $contact-icon-color;
         margin-right: 10px;
       }
     }

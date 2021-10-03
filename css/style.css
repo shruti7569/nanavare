@@ -447,6 +447,12 @@ a:focus {
   margin-right: 20px;
 }
 
+.top-bar-info li a span {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .top-right-bar a span {
   color: #fff;
   font-weight: 600;
@@ -454,12 +460,12 @@ a:focus {
 }
 
 .top-right-bar a i {
-  color: #fff;
+  color: #0BD55C;
   margin-right: 10px;
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/dr_images/slider_banner.png") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -468,7 +474,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../../images/bg/slider_banner.png") no-repeat;
+  background: url("../images/dr_images/slider_banner.png") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -826,11 +832,6 @@ a:focus {
   }
 }
 
-.cta {
-  background: url("../images/bg/bg-4.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  position: relative;
-}
 
 .cta:before {
   position: absolute;
@@ -1525,4 +1526,3 @@ a:focus {
   cursor: pointer;
   opacity: 1;
 }
-/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,5 @@
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
-@import url(../scss/_variables.scss);
 html {
   overflow-x: hidden;
 }

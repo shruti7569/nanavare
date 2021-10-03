@@ -53,6 +53,12 @@ p {
   background: #223a66;
 }
 
+.navbar-toggler {
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+}
+
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -391,6 +397,7 @@ a:focus {
 
 #navbarmain .nav-link:hover {
   cursor: pointer;
+  color: #e12454;
 }
 
 .dropdown-toggle::after {

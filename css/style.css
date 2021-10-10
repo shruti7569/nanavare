@@ -229,7 +229,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-sm {
@@ -490,7 +490,7 @@ a:focus {
 }
 
 .banner .block h1 {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.2;
   letter-spacing: -1.2px;
   text-transform: capitalize;
@@ -537,9 +537,13 @@ a:focus {
 
 @media (max-width: 768px) {
   .banner .block h1 {
-    font-size: 56px;
+    font-size: 40px;
     line-height: 70px;
   }
+}
+
+.btn-ap-1 {
+  padding: 0;
 }
 
 .about-img img {
@@ -684,15 +688,24 @@ a:focus {
   background: #fff;
   padding: 30px;
   border-radius: 5px;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  margin: 0px 10px;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
 }
 
 .service .icon {
-  float: left;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .service i {
   color: #e12454;
+  font-size: 46px;
 }
 
 .service h4 {
@@ -703,18 +716,18 @@ a:focus {
   clear: both;
 }
 
-.service-block {
-  padding: 20px;
-  margin-top: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.03);
-  -webkit-box-shadow: 0 0 38px rgba(21, 40, 82, 0.07);
-          box-shadow: 0 0 38px rgba(21, 40, 82, 0.07);
-}
-
 .service-block img {
   width: 100%;
   margin-top: -60px;
   border: 5px solid #fff;
+}
+
+.services-img-fluid {
+  width: 70%;
+}
+
+.card-img-top {
+  height: 50%;
 }
 
 .department-service {
@@ -870,6 +883,34 @@ a:focus {
   background: url("../images/bg/banner.jpg") no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.video-block .video-item {
+  background: #fff;
+  border-radius: 5px;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  margin: 0px 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+}
+
+.blog-block .blog-item {
+  background: #fff;
+  border-radius: 2;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  margin: 0px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+}
+
+.blog-text {
+  padding: 20px;
 }
 
 .testimonial {
@@ -1504,8 +1545,8 @@ a:focus {
   z-index: 9999;
   display: inline-block;
   right: 55px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   bottom: 50px;
   text-align: center;
   display: -webkit-box;

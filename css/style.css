@@ -291,6 +291,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   letter-spacing: 0px;
 }
 
+#more {display: none;}
+
 /* Links */
 a {
   color: #222;
@@ -471,7 +473,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/dr_images/slider_banner.jpg") no-repeat 50% 50%;
+  background: url("../images/dr_images/bg-1.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -742,6 +744,14 @@ a:focus {
   color: #e12454;
 }
 
+#myBtn {
+  color: #fff;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+}
+
 .doctors .btn-group .btn {
   border-radius: 0px;
   margin: 0px 2px;
@@ -900,7 +910,7 @@ a:focus {
 
 .blog-block .blog-item {
   background: #fff;
-  border-radius: 2;
+  border-radius: 2px;
   -ms-flex-preferred-size: 33.33%;
   flex-basis: 33.33%;
   margin: 0px 10px;
